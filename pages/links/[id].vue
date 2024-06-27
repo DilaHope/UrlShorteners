@@ -2,13 +2,7 @@
     <div class="mx-auto max-w-md prose">
 
      <h1>Modifier le lien</h1>
-     <a href="#"
-     @click.prevent="useRouter().back()" 
-     class="text-sm mb-5 italic flex  items-center gap-3 no-underline">
-      
-     <Icon name="mdi:arrow-left"/>
-      Retour
-    </a>
+    <GoBack />
      <form action="" method="post">
       <label for="">
         <div>Lien court</div>
@@ -27,7 +21,7 @@
   
 </script>
 
-<style scoped>
+<style >
  input{
   @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5;
  }
