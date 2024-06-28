@@ -1,14 +1,11 @@
 <template>
     <div>
-        Deconnexion ...
+    <slot/>
     </div>
 </template>
     
 <script lang="ts" setup>
-   
-   definePageMeta({
-     layout: 'simple'
-   })
+ 
 </script>
 
 <style>
