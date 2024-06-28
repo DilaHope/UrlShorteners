@@ -4,15 +4,15 @@
      <h1>Modifier le lien</h1>
     <GoBack />
      <form action="" method="post">
-      <label for="">
+      <label  >
         <div>Lien court</div>
         <input type="text">
       </label>
-      <label for="">
+      <label  >
         <div>Lien complet</div>
         <input type="text">
       </label>
-      <button>Modifier le lien</button>
+      <button type="button" class="btn">Modifier le lien</button>
      </form>
     </div>
 </template>
