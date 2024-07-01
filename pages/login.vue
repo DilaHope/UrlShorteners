@@ -43,6 +43,7 @@ import axios from "~/node_modules/axios/index";
   async function login( payload:LoginPayload ) {
    
    const res = await axios.post('/login',payload)
+   useRouter().push("/me")
    
    console.log(res);
 

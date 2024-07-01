@@ -8,3 +8,17 @@
      </NuxtLayout>
    </div>
 </template>
+
+<script setup lang="ts">
+ useHead ({
+
+   title: 'url Shortener',
+   link:[
+    {
+      rel:'icon',
+      href:'/app-icon.png',
+      type: 'image/png'
+    }
+   ]
+ })
+</script>
